@@ -1,7 +1,8 @@
 [
 {
-    "name":"Charles Swindoll",
-    "quotes":["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+    "name":"Wayne Gretzky",
+    "featuredQuote":"You miss 100% of the shots you don't take",
+    "quotes":["You miss 100% of the shots you don't take",
         "Each day of our lives we make deposits in the memory banks of our children.",
         "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
     "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
@@ -9,27 +10,39 @@
 },
 {
     "name":"Charles Swindoll",
-    "quotes":["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+    "featuredQuote":"Life is 10% what happens to me and 90% of how I react to it",
+    "quotes":["Life is 10% what happens to me and 90% of how I react to it","We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+        "Each day of our lives we make deposits in the memory banks of our children.",
+        "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
+    "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
+    "image":"reflect"
+},
+{
+    "name":"Henry David Thoreau",
+    "featuredQuote":"Go confidently in the direction of your dreams. Live the life you have imagined",
+    "quotes":["Go confidently in the direction of your dreams. Live the life you have imagined","We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
         "Each day of our lives we make deposits in the memory banks of our children.",
         "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
     "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
     "image":"calm"
 },
 {
-    "name":"Charles Swindoll",
-    "quotes":["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+    "name":"George Addair",
+    "featuredQuote":"Everything you've ever wanted is on the other side of fear",
+    "quotes":["Everything you've ever wanted is on the other side of fear","We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
         "Each day of our lives we make deposits in the memory banks of our children.",
         "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
     "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
     "image":"focus"
 },
 {
-    "name":"Charles Swindoll",
-    "quotes":["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+    "name":"Wayne Gretzky",
+    "featuredQuote":"You miss 100% of the shots you don't take",
+    "quotes":["You miss 100% of the shots you don't take",
         "Each day of our lives we make deposits in the memory banks of our children.",
         "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
     "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
-    "image":"reflect"
-}
+    "image":"reflect2"
+},
 
 ]

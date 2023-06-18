@@ -8,14 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = QuoteModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            VStack(spacing:20) {
+                ForEach(0..<model.quotes.count, id:\.self){ index in
+                    ZStack{
+                        Image(model.quotes[index].image)
+                            .resizable()
+                        
+                            .scaledToFit()
+                            .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
+                            
+
+                        VStack (alignment: .leading, spacing: 15){
+                            Text(model.quotes[index].featuredQuote)
+                                .font(.largeTitle)
+                                .foregroundColor(Color.white)
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            
+                                
+                            Text("- " + model.quotes[index].name)
+                                .foregroundColor(Color.white)
+                        }.padding(.all)
+                        
+                    }
+                    
+                    
+                }
+               
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
